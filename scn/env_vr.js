@@ -3,7 +3,7 @@ import {
     VRButton
 } from '../js/VRButton.js';
 
-let camera, scene, renderer, sphere, clock;
+let camera, scene, renderer, sphere, clock, container;
 
 $(document).ready(function () {
     var x = "Enviroment VR";
@@ -15,7 +15,7 @@ animate();
 
 function init() {
 
-        container = document.createElement('div');
+    container = document.createElement('div');
     document.body.appendChild(container);
 
 //    const container = document.getElementById('container');
