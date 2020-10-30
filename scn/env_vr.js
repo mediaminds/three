@@ -47,7 +47,7 @@ function init() {
     const manager = new THREE.LoadingManager();
     const loader = new THREE.TextureLoader(manager);
 
-    loader.load('../tex/PANO.jpg', function (texture) {
+    loader.load('./tex/PANO.jpg', function (texture) {
 
         texture.minFilter = THREE.NearestFilter;
         texture.generateMipmaps = false;
@@ -55,7 +55,7 @@ function init() {
 
     });
 
-    loader.load('../tex/PANO_DEPTH.jpg', function (depth) {
+    loader.load('./tex/PANO_DEPTH.jpg', function (depth) {
 
         depth.minFilter = THREE.NearestFilter;
         depth.generateMipmaps = false;
