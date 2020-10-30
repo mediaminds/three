@@ -5,20 +5,21 @@ import {
 
 let camera, scene, renderer, sphere, clock, container;
 
-$(document).ready(function () {
-    var x = "Enviroment VR";
-    document.getElementById("info").innerHTML = x;
-});
+//$(document).ready(function () {
+//    var x = "Enviroment VR";
+//    document.getElementById("info").innerHTML = x;
+//});
 
 init();
 animate();
+
 
 function init() {
 
     container = document.createElement('div');
     document.body.appendChild(container);
 
-//    const container = document.getElementById('container');
+    //    const container = document.getElementById('container');
 
     clock = new THREE.Clock();
 
