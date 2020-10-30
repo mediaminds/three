@@ -14,7 +14,7 @@
             const cursor = new THREE.Vector3();
 
 $(document).ready(function () {
-    var x = "HDR env + широкоугольная камера с границами обзора + текст";
+    var x = "AR Paint";
     document.getElementById("info").innerHTML = x;
 });
 
