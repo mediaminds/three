@@ -3,13 +3,13 @@
 //import {    RGBELoader} from '/js/RGBELoader.js';
 
 
-import * as THREE from '/js/three.module.js';
+import * as THREE from '../js/three.module.js';
 import {
     TubePainter
-} from '/js/TubePainter.js';
+} from '../js/TubePainter.js';
 import {
     ARButton
-} from '/js/ARButton.js';
+} from '../js/ARButton.js';
 
 let container;
 let camera, scene, renderer;
