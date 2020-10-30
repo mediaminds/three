@@ -1,0 +1,206 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Text",
+            "rotation" : [
+                0,
+                0.7071067690849304,
+                -0.7071067690849304,
+                -3.0908619663705394e-08
+            ],
+            "scale" : [
+                1.497664451599121,
+                1.497664451599121,
+                1.497664451599121
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.6565753817558289,
+                0.009291308932006359,
+                -0.00808906089514494,
+                0.7541598081588745
+            ],
+            "scale" : [
+                0.11508924514055252,
+                0.11508926004171371,
+                0.11508923768997192
+            ],
+            "translation" : [
+                0,
+                0,
+                0.9999998807907104
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "BezierCircle",
+            "scale" : [
+                7.619352340698242,
+                7.619352340698242,
+                7.619352340698242
+            ],
+            "translation" : [
+                0.20330142974853516,
+                1.1471261978149414,
+                0.6302123069763184
+            ]
+        },
+        {
+            "name" : "Empty"
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "name" : "Material_MR",
+            "normalTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 2,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "dwd",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Default_emissive",
+            "uri" : "Default_emissive.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Default_normal",
+            "uri" : "Default_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Default_AO",
+            "uri" : "Default_AO.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Default_albedo",
+            "uri" : "Default_albedo.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3928,
+            "max" : [
+                1.755500078201294,
+                0,
+                0.009000000543892384
+            ],
+            "min" : [
+                -1.755500078201294,
+                -0.08999998867511749,
+                -0.6820000410079956
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3928,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 6168,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 47136,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 47136,
+            "byteOffset" : 47136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12336,
+            "byteOffset" : 94272
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 106608,
+            "uri" : "untitled.bin"
+        }
+    ]
+}
